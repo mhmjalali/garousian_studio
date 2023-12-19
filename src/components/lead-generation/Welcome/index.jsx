@@ -1,9 +1,20 @@
-import React from 'react'
+import styled from "styled-components";
+import WelcomeBackground from "./WelcomeBackground";
+import WelcomeContent from "./WelcomeContent";
 
-const index = () => {
-  return (
-    <div>index</div>
-  )
+const WelcomeBox = styled.div`
+    width: 100%;
+    height: 100vh;
+    position: relative;
+`;
+
+const Welcome = () => {
+    return (
+        <WelcomeBox>
+            <WelcomeBackground />
+            <WelcomeContent />
+        </WelcomeBox>
+    )
 }
 
-export default index
+export default Welcome
