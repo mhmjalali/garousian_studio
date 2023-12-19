@@ -8,7 +8,7 @@ const Content = styled.div`
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-rows: 5fr 2fr 2fr;
     justify-items: center;
     align-items: center;
     z-index: 2;
