@@ -11,8 +11,13 @@ const TextBox = styled.div`
 const TypoHead = styled.p`
     font-size: 32px;
     line-height: 54px;
+    text-align: center;
     font-weight: 700;
     color: ${({ $color }) => $color || "#000"};
+    @media only screen and (max-width: 768px) {
+        font-size: 22px;
+        line-height: 37px;
+    }
 `;
 
 const TypoParagraph = styled.p`
@@ -22,6 +27,10 @@ const TypoParagraph = styled.p`
     font-weight: 400;
     max-width: 700px;
     color: ${({ $color }) => $color || "#000"};
+    @media only screen and (max-width: 768px) {
+        font-size: 16px;
+        line-height: 27px;
+    }
 `;
 
 const ContentTextBox = () => {

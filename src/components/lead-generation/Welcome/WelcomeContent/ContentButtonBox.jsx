@@ -1,3 +1,4 @@
+import DefaultBtn from "@/core/components/styles/DefaultBtn";
 import styled from "styled-components";
 
 const ButtonBox = styled.div`
@@ -6,19 +7,6 @@ const ButtonBox = styled.div`
     align-items: center;
     justify-content: center;
     gap: 24px;
-`;
-
-const DefaultBtn = styled.div`
-    padding: 8px 20px;
-    border-radius: 4px;
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
-    color: #fff;
-    ${({ $type }) =>
-        $type === "contained" ? 
-        "border: 2px solid #fff;" : 
-        "border: none; background-color: #5274F9"}
 `;
 
 const ContentButtonBox = () => {
