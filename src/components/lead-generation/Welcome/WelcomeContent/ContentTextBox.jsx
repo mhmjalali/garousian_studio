@@ -36,8 +36,8 @@ const TypoParagraph = styled.p`
 const ContentTextBox = () => {
     return (
         <TextBox>
-            <TypoHead $color="#fff">به راحتی خدمات مورد نیاز خودت رو پیدا کن</TypoHead>
-            <TypoParagraph $color="#fff">اینجا میتوانید کمی در مورد خودتون صحبت و توضیح دهید که محصول شما چیست و چه کارهایی انجام میده</TypoParagraph>
+            <TypoHead $color="#fff" $fontSize="32px">به راحتی خدمات مورد نیاز خودت رو پیدا کن</TypoHead>
+            <TypoParagraph $color="#fff" $fontSize="20px">اینجا میتوانید کمی در مورد خودتون صحبت و توضیح دهید که محصول شما چیست و چه کارهایی انجام میده</TypoParagraph>
         </TextBox>
     )
 }
