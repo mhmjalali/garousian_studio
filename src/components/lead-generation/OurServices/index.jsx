@@ -3,7 +3,7 @@ import OurServicesHeader from "./OurServicesHeader";
 import OurServicesType from "./OurServicesType";
 import ContainerFluid from "@/core/components/styles/ContainerFluid";
 
-const OurServicesBox = styled.div`
+const OurServicesBox = styled.section`
     width: 100%;
     height: 100vh;
     position: relative;
@@ -21,9 +21,9 @@ const OurServices = () => {
         <OurServicesBox>
             <ContainerFluid>
                 <ServiceGridSystem>
-                <OurServicesHeader />
-                <OurServicesType />
-            </ServiceGridSystem>
+                    <OurServicesHeader />
+                    <OurServicesType />
+                </ServiceGridSystem>
             </ContainerFluid>
         </OurServicesBox>
     )

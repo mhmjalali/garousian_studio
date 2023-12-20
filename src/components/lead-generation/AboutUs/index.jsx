@@ -13,7 +13,7 @@ const AboutUsBox = styled.div`
 const AboutUs = () => {
     return (
         <AboutUsBox>
-          <MiddleAboutUs />
+            <MiddleAboutUs />
         </AboutUsBox>
     )
 }
