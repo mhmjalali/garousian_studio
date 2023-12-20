@@ -1,3 +1,4 @@
+import styled from "styled-components";
 import ContentBox from "./ContentBox"
 import VideoBox from "./VideoBox"
 

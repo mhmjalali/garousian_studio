@@ -6,7 +6,7 @@ const AboutUsBox = styled.div`
     height: 100vh;
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: center;    
     justify-content: center;
 `;
 
