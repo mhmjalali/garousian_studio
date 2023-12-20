@@ -1,9 +1,21 @@
-import React from 'react'
+import styled from "styled-components";
+import MiddleAboutUs from "./MiddleBox";
 
-const index = () => {
-  return (
-    <div>index</div>
-  )
+const AboutUsBox = styled.div`
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+const AboutUs = () => {
+    return (
+        <AboutUsBox>
+          <MiddleAboutUs />
+        </AboutUsBox>
+    )
 }
 
-export default index
+export default AboutUs
