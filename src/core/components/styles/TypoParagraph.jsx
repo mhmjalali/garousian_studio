@@ -8,7 +8,7 @@ const TypoParagraph = styled.p`
     max-width: 700px;
     color: ${({ $color }) => $color || "#444444"};
     @media only screen and (max-width: 768px) {
-        font-size: 16px;
+        font-size: ${({ $fontSize }) => $fontSize ? "16px" : "12px"};
         line-height: 27px;
     }
 `;
