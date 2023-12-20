@@ -4,6 +4,8 @@ import styled from "styled-components";
 
 const TextBox = styled.div`
     display: flex;
+    margin-bottom: 40px;
+    margin-top: 50px;
     flex-direction: column;
     align-items: center;
     justify-content: center;

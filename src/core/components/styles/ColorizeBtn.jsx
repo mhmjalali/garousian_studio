@@ -11,8 +11,9 @@ const ColorizeBtn = styled.button`
     color: ${({ $color }) => $color};
     background: ${({ $background }) => $background};
     @media only screen and (max-width: 768px) {
-        font-size: 16px;
-        line-height: 27px;
+        width: 100px;
+        font-size: 12px;
+        line-height: 20px;
     }
 `;
 

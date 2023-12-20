@@ -3,6 +3,7 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyles = createGlobalStyle`
     body {
         font-family: IRANSansFaNum;
+        background: #FAFAFA;
     }
     * {
         margin: 0;

@@ -9,19 +9,27 @@ const ContainerFluid = styled.div`
   margin-left: auto;
 
   @media (min-width: 576px) {
-    max-width: 540px;
+    max-width: 550px;
   }
 
   @media (min-width: 768px) {
-    max-width: 720px;
+    max-width: 740px;
   }
 
   @media (min-width: 992px) {
-    max-width: 960px;
+    max-width: 970px;
   }
 
   @media (min-width: 1200px) {
-    max-width: 1140px;
+    max-width: 1180px;
+  }
+
+  @media (min-width: 1300px) {
+    max-width: 1280px;
+  }
+
+  @media (min-width: 1400px) {
+    max-width: 1380px;
   }
 `;
 
