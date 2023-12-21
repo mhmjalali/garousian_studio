@@ -1,13 +1,5 @@
+import { LogoBox } from "@/styles/Welcome.styles";
 import Image from "next/image";
-import styled from "styled-components"
-
-const LogoBox = styled.div`
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-`;
 
 const ContentLogoBox = () => {
     return (

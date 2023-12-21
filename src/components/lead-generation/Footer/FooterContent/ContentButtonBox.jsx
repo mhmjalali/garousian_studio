@@ -1,13 +1,5 @@
 import DefaultBtn from "@/core/components/styles/DefaultBtn";
-import styled from "styled-components";
-
-const ButtonBox = styled.div`
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-`;
+import { ButtonBox } from "@/styles/Footer.styles";
 
 const ContentButtonBox = () => {
     return (

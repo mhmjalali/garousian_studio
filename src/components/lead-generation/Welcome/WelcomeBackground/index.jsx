@@ -1,30 +1,11 @@
-import styled from "styled-components";
-
-const Background = styled.div`
-	background-image: url("/images/Welcome_img.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	z-index: 1;
-`;
-
-const DropShadow = styled.div`
-	background-color: rgba(32, 55, 137, 0.8);
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-`;
+import BackgroundWithImage from "@/core/components/styles/BackgroundWithImg";
+import DropShadow from "@/core/components/styles/DropShadow";
 
 const WelcomeBackground = () => {
 	return (
-		<Background>
-			<DropShadow/>
-		</Background>
+		<BackgroundWithImage $backgroundImage='url("/images/Welcome_img.png")'>
+			<DropShadow $backgroundColor="rgba(32, 55, 137, 0.8)"/>
+		</BackgroundWithImage>
 	)
 }
 

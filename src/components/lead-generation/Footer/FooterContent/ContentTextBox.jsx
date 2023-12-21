@@ -1,14 +1,6 @@
 import { TypoH2 } from "@/core/components/styles/TypoHead";
 import { TypoP2 } from "@/core/components/styles/TypoParagraph";
-import styled from "styled-components";
-
-const TextBox = styled.div`
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-`;
+import { TextBox } from "@/styles/Footer.styles";
 
 const ContentTextBox = () => {
     return (

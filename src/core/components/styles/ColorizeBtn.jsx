@@ -5,7 +5,7 @@ const ColorizeBtn = styled.button`
     width: 140px;
     border-radius: 4px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     border: none;
     cursor: pointer;
     color: ${({ $color }) => $color};
