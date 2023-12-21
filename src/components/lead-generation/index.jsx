@@ -1,4 +1,5 @@
 import AboutUs from "./AboutUs";
+import Copyright from "./Copyright";
 import Footer from "./Footer";
 import OurCustomers from "./OurCustomers";
 import OurServices from "./OurServices";
@@ -13,6 +14,7 @@ const LeadGenerationCompany = () => {
 			<AboutUs/>
 			<OurCustomers/>
 			<Footer/>
+			<Copyright/>
 		</>
 	)
 }

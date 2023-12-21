@@ -34,7 +34,7 @@ export const TypoP3 = styled.p`
     max-width: 700px;
     color: ${({ $color }) => $color || "#444444"};
     @media only screen and (max-width: 768px) {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 24px;
     }
 `;
@@ -47,7 +47,7 @@ export const TypoP4 = styled.p`
     max-width: 700px;
     color: ${({ $color }) => $color || "#444444"};
     @media only screen and (max-width: 768px) {
-        font-size: 12px;
+        font-size: 10px;
         line-height: 20px;
     }
 `;

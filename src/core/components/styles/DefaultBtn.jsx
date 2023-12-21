@@ -5,9 +5,11 @@ const DefaultBtn = styled.button`
     border-radius: 4px;
     font-size: 20px;
     font-weight: 500;
+    width: 220px;
     color: #fff;
     cursor: pointer;
     @media only screen and (max-width: 768px) {
+        width: unset;
         font-size: 16px;
         line-height: 27px;
     }
