@@ -5,7 +5,7 @@ import ContainerFluid from "@/core/components/styles/ContainerFluid";
 
 const OurServicesBox = styled.section`
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
 `;
 
@@ -14,6 +14,9 @@ const ServiceGridSystem = styled.div`
     height: 100%;
     display: grid;
     grid-template-rows: 3fr 5fr;
+    @media only screen and (max-width: 768px) {
+        grid-template-rows: 1fr 5fr;
+    }
 `;
 
 const OurServices = () => {

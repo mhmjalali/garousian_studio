@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import MiddleAboutUs from "./MiddleBox";
 
-const AboutUsBox = styled.div`
+const AboutUsBox = styled.section`
     width: 100%;
     height: 100vh;
     position: relative;

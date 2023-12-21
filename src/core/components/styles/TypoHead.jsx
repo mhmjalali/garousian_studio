@@ -7,7 +7,7 @@ const TypoHead = styled.p`
     font-weight: 700;
     color: ${({ $color }) => $color || "#444444"};
     @media only screen and (max-width: 768px) {
-        font-size: ${({ $fontSize }) => $fontSize ? "22px" : "16px"};
+        font-size: ${({ $fontSize }) => $fontSize ? "22px" : "18px"};
         line-height: 37px;
     }
 `;
