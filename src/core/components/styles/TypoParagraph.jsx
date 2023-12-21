@@ -3,7 +3,7 @@ import styled from "styled-components";
 const TypoParagraph = styled.p`
     font-size: ${({ $fontSize }) => $fontSize || "18px"};
     line-height: ${({ $lineHeight }) => $lineHeight || "34px"};
-    text-align: center;
+    text-align: ${({ $alignMent }) => $alignMent || "center"};
     font-weight: 400;
     max-width: 700px;
     color: ${({ $color }) => $color || "#444444"};

@@ -1,19 +1,19 @@
 import styled from "styled-components";
 import MiddleAboutUs from "./MiddleBox";
 
-const AboutUsBox = styled.div`
+const AboutUsBox = styled.section`
     width: 100%;
     height: 100vh;
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: center;    
     justify-content: center;
 `;
 
 const AboutUs = () => {
     return (
         <AboutUsBox>
-          <MiddleAboutUs />
+            <MiddleAboutUs />
         </AboutUsBox>
     )
 }
