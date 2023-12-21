@@ -1,3 +1,5 @@
+import { TypoH1 } from "@/core/components/styles/TypoHead";
+import { TypoP1 } from "@/core/components/styles/TypoParagraph";
 import styled from "styled-components";
 
 const TextBox = styled.div`
@@ -8,36 +10,11 @@ const TextBox = styled.div`
     justify-content: center;
 `;
 
-const TypoHead = styled.p`
-    font-size: 32px;
-    line-height: 54px;
-    text-align: center;
-    font-weight: 700;
-    color: ${({ $color }) => $color || "#000"};
-    @media only screen and (max-width: 768px) {
-        font-size: 22px;
-        line-height: 37px;
-    }
-`;
-
-const TypoParagraph = styled.p`
-    font-size: 20px;
-    line-height: 34px;
-    text-align: center;
-    font-weight: 400;
-    max-width: 700px;
-    color: ${({ $color }) => $color || "#000"};
-    @media only screen and (max-width: 768px) {
-        font-size: 16px;
-        line-height: 27px;
-    }
-`;
-
 const ContentTextBox = () => {
     return (
         <TextBox>
-            <TypoHead $color="#fff" $fontSize="32px">به راحتی خدمات مورد نیاز خودت رو پیدا کن</TypoHead>
-            <TypoParagraph $color="#fff" $fontSize="20px">اینجا میتوانید کمی در مورد خودتون صحبت و توضیح دهید که محصول شما چیست و چه کارهایی انجام میده</TypoParagraph>
+            <TypoH1 $color="#fff">به راحتی خدمات مورد نیاز خودت رو پیدا کن</TypoH1>
+            <TypoP1 $color="#fff" $fontSize="20px">اینجا میتوانید کمی در مورد خودتون صحبت و توضیح دهید که محصول شما چیست و چه کارهایی انجام میده</TypoP1>
         </TextBox>
     )
 }
