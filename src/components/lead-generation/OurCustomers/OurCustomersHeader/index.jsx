@@ -11,7 +11,7 @@ const TextBox = styled.div`
     justify-content: center;
 `;
 
-const OurServicesHeader = () => {
+const OurCustomersHeader = () => {
     return (
         <TextBox>
             <TypoH2>ما خدمات زیادی به مشتریان بزرگمان ارائه میدهیم</TypoH2>
@@ -20,4 +20,4 @@ const OurServicesHeader = () => {
     )
 }
 
-export default OurServicesHeader
+export default OurCustomersHeader
