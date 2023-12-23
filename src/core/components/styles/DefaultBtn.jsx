@@ -13,6 +13,12 @@ const DefaultBtn = styled.button`
         font-size: 16px;
         line-height: 27px;
     }
+    @media only screen and (max-width: 390px) {
+        width: unset;
+        font-size: 12px;
+        line-height: 22px;
+        padding: 4px 12px;
+    }
     ${({ $type }) => $type === "contained" ?  "border: 2px solid #fff; background-color: transparent" : "border: 2px solid transparent; background-color: #5274F9"}
 `;
 

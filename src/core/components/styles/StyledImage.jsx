@@ -8,6 +8,10 @@ const StyledImage = styled(Image)`
         width: 310px;
         height: 194px;
     }
+    @media only screen and (max-width: 390px) {
+        width: 250px;
+        height: 159px;
+    }
 `;
 
 export default StyledImage
