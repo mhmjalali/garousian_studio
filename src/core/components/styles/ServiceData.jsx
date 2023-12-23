@@ -12,6 +12,10 @@ const ServiceData = styled.div`
         max-width: 282px;
         padding: 16px;
     }
+    @media only screen and (max-width: 390px) {
+        max-width: 230px;
+        padding: 12px;
+    }
 `;
 
 export default ServiceData
